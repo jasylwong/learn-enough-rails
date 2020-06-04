@@ -5,7 +5,7 @@ h3 {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background-color: red;
 }

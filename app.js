@@ -7,19 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'laughing',
       img: './images/laughing.png'
-    },    {
+    },    
+    {
       name: 'sunglasses',
       img: './images/sunglasses.png'
-    },    {
-      name: 'sunglasses',
-      img: './images/sunglasses.png'
-    },    {
-      name: 'wink',
-      img: './images/wink.png'
-    },    {
-      name: 'wink',
-      img: './images/wink.png'
     },
+    {
+      name: 'sunglasses',
+      img: './images/sunglasses.png'
+    }
   ]
 
   const grid = document.querySelector('.grid')
