@@ -22,5 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   ]
 
-  const grid = document.querySelector.apply('.grid')
+  const grid = document.querySelector('.grid')
 })
