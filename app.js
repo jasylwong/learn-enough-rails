@@ -24,6 +24,30 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'wink',
       img: './images/wink.png'
     },
+    {
+      name: 'hearts',
+      img: './images/hearts.png'
+    },
+    {
+      name: 'hearts',
+      img: './images/hearts.png'
+    },
+    {
+      name: 'angel',
+      img: './images/angel.png'
+    },
+    {
+      name: 'angel',
+      img: './images/angel.png'
+    },
+    {
+      name: 'fearful',
+      img: './images/fearful.png'
+    },
+    {
+      name: 'fearful',
+      img: './images/fearful.png'
+    }
   ]
 
   cardArray.sort(() => 0.5 - Math.random())
@@ -50,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (cardsChosen[0] === cardsChosen[1]) {
       alert('You found a match!')
       cardsWon.push(...cardsChosen)
-      console.log(cardsWon)
       resultsDisplay.textContent = cardsWon.length
     } else {
       cards[cardsChosenId[0]].setAttribute('src', './images/blank.png')
@@ -72,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(checkForMatch, 400) 
     } 
   }
-
 
   createBoard()
 })
