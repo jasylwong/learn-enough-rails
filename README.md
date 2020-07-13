@@ -1,5 +1,7 @@
 # Learn enough Rails 
 
+https://fathomless-woodland-70494.herokuapp.com/
+
 Rails is a web development framework written in the Ruby programming language.
 
 # Ruby on Rails Tutorial sample application
@@ -133,4 +135,9 @@ $ heroku help
 ---
 
 ### 3.1 Sample app setup
+
+### 3.2 Static pages
+#### 3.2.1 Generated static pages
+- Generate a controller using, eg: $ rails g controller ControllerName list_of_actions
+
 
