@@ -87,5 +87,8 @@ $ heroku help
 ---
 
 ---
-## Chapter 3:
+## Chapter 3: Mostly static pages
 ---
+
+### 3.1 Sample app setup
+
