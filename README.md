@@ -166,6 +166,8 @@ Run rails tests with: $ rails test
 #### 3.4.3 Layouts and embedded Ruby (refactor)
 - Use something like <% provide(:title, "Home") %> to help DRY out your code.
 - Rails comes with a special layout file (application.html.erb in /views) for when multiple pages have similar layouts
+#### 3.4.4 Setting the root route
+
 
 
 
