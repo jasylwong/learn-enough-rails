@@ -168,6 +168,6 @@ Run rails tests with: $ rails test
 - Rails comes with a special layout file (application.html.erb in /views) for when multiple pages have similar layouts
 #### 3.4.4 Setting the root route
 
-
+3.5 Conclusion
 
 
