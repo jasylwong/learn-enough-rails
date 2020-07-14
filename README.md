@@ -161,7 +161,10 @@ Run rails tests with: $ rails test
 
 ### 3.4 Slightly dynamic pages
 #### 3.4.1 Testing titles (Red)
+- assert_select allows you to choose a particular html element to assess
 #### 3.4.2 Adding page titles (Green)
+#### 3.4.3 Layouts and embedded Ruby (refactor)
+- Use something like <% provide(:title, "Home") %> to help DRY out your code.
 
 
 
