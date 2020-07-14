@@ -29,7 +29,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # Uglifier minifies JS files by wrapping UglifyJS to be accessible in Ruby
 gem 'uglifier', '3.2.0'
-gem 'coffee-rails', '4.2.2'
+gem 'coffee-rails', '5.0.0'
 gem 'jquery-rails', '4.3.1'
 
 group :development, :test do

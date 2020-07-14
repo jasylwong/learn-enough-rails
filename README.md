@@ -139,5 +139,23 @@ $ heroku help
 ### 3.2 Static pages
 #### 3.2.1 Generated static pages
 - Generate a controller using, eg: $ rails g controller ControllerName list_of_actions
+  - This creates the controller, and updates the routes for the (optional) list of actions given
+  - CamelCase for class names, snake case for filenames
+
+#### Sidenote: Undoing things
+- Uses the rails destroy to undo all the actions just committed eg for the above, use $ rails destroy controller ControllerName list_of_actions
+- Undo a single migration step using: $ rails db:rollback
+- To go all the way back to the beginning, use $ rails db:migrate VERSION=0
+
+
+#### 3.2.2 Custom static pages
+
+### 3.3 Getting started with testing
+
+#### 3.3.1 Our first test
+Run rails tests with: $ rails test
+
+#### 3.3.2 Red
+#### 3.3.3 Green
 
 
