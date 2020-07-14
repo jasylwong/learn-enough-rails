@@ -157,5 +157,11 @@ Run rails tests with: $ rails test
 
 #### 3.3.2 Red
 #### 3.3.3 Green
+#### 3.3.4 Refactor
+
+### 3.4 Slightly dynamic pages
+#### 3.4.1 Testing titles (Red)
+#### 3.4.2 Adding page titles (Green)
+
 
 
