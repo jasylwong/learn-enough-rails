@@ -36,3 +36,36 @@ $ rails server
 ##### 4.1.1 Built-in helpers
 ##### 4.1.2 Custom helpers
 - helpers: custom made functions
+
+#### 4.2 Strings and methods
+##### 4.2.1 Strings
+##### 4.2.2 Objects and message passing
+##### 4.2.3 Method definitions
+##### 4.2.4 Back to the title helper
+
+#### 4.3 Other data structures
+##### 4.3.1 Arrays and ranges
+```
+$ (0..4).to_a is the same as [0, 1, 2, 3, 4] (also works on letters eg a to e)
+```
+Ranges can also be used to get a range of elements in an array
+
+##### 4.3.2 Blocks
+Blocks are closures, ie one-shot anonymous functions with data attached
+
+##### 4.3.3 Hashes and symbols
+##### 4.3.4 CSS revisited
+
+#### 4.4 Ruby classes
+##### 4.4.1 Constructors
+##### 4.4.2 Class inheritance
+##### 4.4.3 Modifiying built-in classes
+##### 4.4.4 A controller class
+##### 4.4.5 A user class
+
+
+
+
+
+
+
