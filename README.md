@@ -28,3 +28,11 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+## Contents
+
+### 4 Rails-flavored Ruby
+#### 4.1 Motivation
+##### 4.1.1 Built-in helpers
+##### 4.1.2 Custom helpers
+- helpers: custom made functions
