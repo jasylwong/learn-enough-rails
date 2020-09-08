@@ -63,9 +63,6 @@ Blocks are closures, ie one-shot anonymous functions with data attached
 ##### 4.4.4 A controller class
 ##### 4.4.5 A user class
 
-
-
-
-
-
-
+### 5 Filling in the layou
+#### 5.1 Adding some structure
+##### 5.1.1 Site navigation
