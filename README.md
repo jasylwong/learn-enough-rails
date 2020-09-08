@@ -67,3 +67,4 @@ Blocks are closures, ie one-shot anonymous functions with data attached
 #### 5.1 Adding some structure
 ##### 5.1.1 Site navigation
 ##### 5.1.2 Bootstrap and custom CSS
+##### 5.1.3 Partials
