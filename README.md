@@ -79,3 +79,4 @@ SASS allows us to use nesting and variables in our stylesheets
 #### 5.3.1 Contact page
 #### 5.3.2 Rails routes
 #### 5.3.3 Using named routes
+#### 5.3.4 Layout link tests
