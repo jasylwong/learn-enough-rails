@@ -80,3 +80,7 @@ SASS allows us to use nesting and variables in our stylesheets
 #### 5.3.2 Rails routes
 #### 5.3.3 Using named routes
 #### 5.3.4 Layout link tests
+
+#### 5.4 User signup: A first step
+##### 5.4.1 Users controller
+
