@@ -83,4 +83,6 @@ SASS allows us to use nesting and variables in our stylesheets
 
 #### 5.4 User signup: A first step
 ##### 5.4.1 Users controller
+##### 5.4.2 Signup URL
+
 
