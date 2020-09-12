@@ -89,6 +89,13 @@ SASS allows us to use nesting and variables in our stylesheets
 #### 6.1 User model
 Active Record - default library for interacting with the database
 ##### 6.1.1 Database migrations
+$ rails generate migration migration_name
+Most migrations are reversible using: $ rails db:rollback
+##### 6.1.2 The model file
+##### 6.1.3 Creating user objects
+Use the rails console in sandbox mode when we don't want any changes to be made to the database(s).
+##### 6.1.4 Finding user objects
+
 
 
 354
