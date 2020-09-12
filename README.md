@@ -85,4 +85,10 @@ SASS allows us to use nesting and variables in our stylesheets
 ##### 5.4.1 Users controller
 ##### 5.4.2 Signup URL
 
+### 6 Modeling users (295)
+#### 6.1 User model
+Active Record - default library for interacting with the database
+##### 6.1.1 Database migrations
 
+
+354
