@@ -117,4 +117,7 @@ See p328 for Regex overview table, or use Rubular
 ##### 6.3.2 User has secure password
 ##### 6.3.3 Minimum password standards
 ##### 6.3.4 Creating and authenticating a user
-
+To get models working in production, need to run the migrations at heroku using 
+  $ heroku run rails db:migrate
+And can verify by running a console in production:
+  $ heroku run rails console --sandbox
