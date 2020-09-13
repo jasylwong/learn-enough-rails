@@ -103,5 +103,6 @@ The former requires a .save after to make permanent db changes
 #### 6.2.1 A validity test
 #### 6.2.2 Validating presence
 #### 6.2.3 Length validation
+#### 6.2.4 Format validation
 
 354
