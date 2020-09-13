@@ -105,6 +105,8 @@ The former requires a .save after to make permanent db changes
 #### 6.2.3 Length validation
 #### 6.2.4 Format validation
 See p328 for Regex overview table, or use Rubular
-
+#### 6.2.5 Uniqueness validation
+For uniquness tests, we actually have to put a record in the db
+Use .dup to create a duplicate object
 
 354
