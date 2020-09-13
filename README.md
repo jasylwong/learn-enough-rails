@@ -100,15 +100,20 @@ We can update objects by direct assignment, or .update (or .update_attribute for
 The former requires a .save after to make permanent db changes
 
 #### 6.2 User validations
-#### 6.2.1 A validity test
-#### 6.2.2 Validating presence
-#### 6.2.3 Length validation
-#### 6.2.4 Format validation
+##### 6.2.1 A validity test
+##### 6.2.2 Validating presence
+##### 6.2.3 Length validation
+##### 6.2.4 Format validation
 See p328 for Regex overview table, or use Rubular
-#### 6.2.5 Uniqueness validation
+##### 6.2.5 Uniqueness validation
 - For uniquness tests, we actually have to put a record in the db
 - Use .dup to create a duplicate object
 - Need to enforce uniqueness at the database level as well, using a database index in our migrations
 - callback: a method that gets invoked at a particular point in the lifecycle of an Active Record object
+
+#### 6.3 Adding a secure password
+##### 6.3.1 A hashed password
+.has_secure_password in
+##### 6.3.2 User has secure password
 
 354
