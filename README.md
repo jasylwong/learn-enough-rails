@@ -116,5 +116,5 @@ See p328 for Regex overview table, or use Rubular
 .has_secure_password in
 ##### 6.3.2 User has secure password
 ##### 6.3.3 Minimum password standards
+##### 6.3.4 Creating and authenticating a user
 
-354
