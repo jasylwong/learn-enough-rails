@@ -104,5 +104,7 @@ The former requires a .save after to make permanent db changes
 #### 6.2.2 Validating presence
 #### 6.2.3 Length validation
 #### 6.2.4 Format validation
+See p328 for Regex overview table, or use Rubular
+
 
 354
