@@ -95,7 +95,11 @@ Most migrations are reversible using: $ rails db:rollback
 ##### 6.1.3 Creating user objects
 Use the rails console in sandbox mode when we don't want any changes to be made to the database(s).
 ##### 6.1.4 Finding user objects
+##### 6.1.5 Updating user objects
+We can update objects by direct assignment, or .update (or .update_attribute for a single attribute)
+The former requires a .save after to make permanent db changes
 
-
+#### 6.2 User validations
+#### 6.2.1 A validity test
 
 354
