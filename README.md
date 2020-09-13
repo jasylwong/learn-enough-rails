@@ -115,5 +115,6 @@ See p328 for Regex overview table, or use Rubular
 ##### 6.3.1 A hashed password
 .has_secure_password in
 ##### 6.3.2 User has secure password
+##### 6.3.3 Minimum password standards
 
 354
