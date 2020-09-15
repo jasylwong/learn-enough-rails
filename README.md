@@ -130,6 +130,13 @@ $ rails db:migrate RAILS_ENV=production
 ##### 7.1.2 A Users resource
 See Table 7.1 (p367) for RESTful routes provided by the Users resource
 
+#### 7.1.3 Debugger
+- byebug: add 'debugger' in our code to stop it running at a particular point so we can see current state
+- Ctrl-D to exit it
+
+#### 7.1.4 A Gravatar image and a sidebar
+- methods defined in any helper file are automatically available in any view, but we usually sort them into separate directories for convenience
+
 #### 7.2 Signup form
 381
 
