@@ -128,6 +128,7 @@ And can verify by running a console in production:
 $ rails server --environment production
 $ rails db:migrate RAILS_ENV=production
 ##### 7.1.2 A Users resource
+See Table 7.1 (p367) for RESTful routes provided by the Users resource
 
 #### 7.2 Signup form
 381
