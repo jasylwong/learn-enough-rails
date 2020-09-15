@@ -121,3 +121,48 @@ To get models working in production, need to run the migrations at heroku using
   $ heroku run rails db:migrate
 And can verify by running a console in production:
   $ heroku run rails console --sandbox
+
+### 7 Sign up
+#### 7.1 Showing users
+##### 7.1.1 Debug and Rails environments
+$ rails server --environment production
+$ rails db:migrate RAILS_ENV=production
+##### 7.1.2 A Users resource
+
+#### 7.2 Signup form
+381
+
+#### 7.3 Unsuccessful signups
+392
+
+#### 7.4 Successful signups
+409
+
+#### 7.5 Professional-grade deployment
+424
+
+#### 7.6 Conclusion
+423
+
+### 8 Basic login
+435
+
+### 9 Advanced login
+499
+
+### 10 Updating, showing, and deleting users
+549
+
+### 11 Account activation
+621
+
+### 12 Password reset
+675
+
+### 13 User microposts
+723
+
+### 14 Following users
+829 - 905
+
+
