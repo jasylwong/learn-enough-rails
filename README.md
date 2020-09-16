@@ -141,10 +141,9 @@ See Table 7.1 (p367) for RESTful routes provided by the Users resource
 ##### 7.2.1 Using form_with
 ##### 7.2.2 Signup form HTML
 
-
-
 #### 7.3 Unsuccessful signups
-392
+##### 7.3.1 A working form
+##### 7.3.2 Strong parameters
 
 #### 7.4 Successful signups
 409
