@@ -139,6 +139,8 @@ See Table 7.1 (p367) for RESTful routes provided by the Users resource
 
 #### 7.2 Signup form
 ##### 7.2.1 Using form_with
+##### 7.2.2 Signup form HTML
+
 
 
 #### 7.3 Unsuccessful signups
