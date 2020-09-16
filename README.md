@@ -144,6 +144,8 @@ See Table 7.1 (p367) for RESTful routes provided by the Users resource
 #### 7.3 Unsuccessful signups
 ##### 7.3.1 A working form
 ##### 7.3.2 Strong parameters
+##### 7.3.3 Signup error messages
+After an invalid submission Rails automatically wraps the fields with errors in divs with the CSS class field_with_errors. These labels then allow us to style the error messages with the SCSS shown in Listing 7.22, which makes use of Sass’s @extend function to include the functionality of the Bootstrap class has-error.
 
 #### 7.4 Successful signups
 409
