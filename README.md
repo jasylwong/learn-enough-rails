@@ -164,6 +164,12 @@ Puma: an HTTP server capable of handling a large number of incoming requests.
 If using Heroku, need to adjust the config/puma.rb file.
 Create a Procfile to tell Heroku to run a Puma process in production.
 
+##### 7.5.3 Production database configuration
+Configure the production db by updating the production section of the db config file: config/database.yml.
+
+##### 7.5.4 Production deployment
+
+
 #### 7.6 Conclusion
 433
 
