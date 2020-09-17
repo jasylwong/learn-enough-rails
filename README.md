@@ -151,6 +151,10 @@ After an invalid submission Rails automatically wraps the fields with errors in 
 #### 7.4 Successful signups
 #### 7.4.1 The finished signup form
 #### 7.4.2 The flash
+#### 7.4.3 The first signup
+rails db:migrate:reset
+#### 7.4.4 A test for valid submission
+
 
 #### 7.5 Professional-grade deployment
 424
