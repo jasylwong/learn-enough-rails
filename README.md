@@ -155,12 +155,17 @@ After an invalid submission Rails automatically wraps the fields with errors in 
 rails db:migrate:reset
 #### 7.4.4 A test for valid submission
 
-
 #### 7.5 Professional-grade deployment
-424
+##### 7.5.1 SSL in production
+SSL - Secure Sockets Layer (SSL)
+Enforce SSL by setting config.force_ssl = true in production.rb
+##### 7.5.2 Production webserver
+Puma: an HTTP server capable of handling a large number of incoming requests.
+If using Heroku, need to adjust the config/puma.rb file.
+Create a Procfile to tell Heroku to run a Puma process in production.
 
 #### 7.6 Conclusion
-423
+433
 
 ### 8 Basic login
 435
