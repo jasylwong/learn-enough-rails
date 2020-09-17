@@ -150,7 +150,7 @@ After an invalid submission Rails automatically wraps the fields with errors in 
 
 #### 7.4 Successful signups
 #### 7.4.1 The finished signup form
-409
+#### 7.4.2 The flash
 
 #### 7.5 Professional-grade deployment
 424
