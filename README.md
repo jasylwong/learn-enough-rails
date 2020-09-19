@@ -178,7 +178,10 @@ Sessions resource will use cookies instead of a db back-end to persist data
 #### 8.1.1 Sessions controller
 #### 8.1.2 Login form
 #### 8.1.3 Finding and authenticating a user
-
+#### 8.1.4 Rendering with a flash message
+Contents of the flash persist for one request, but—unlike a redirect, re-rendering a template with render doesn’t count as a request. 
+#### 8.1.5 A flash test
+Use flash.now for the above - the contents disappear after an additional request.
 
 #### 8.2 Logging in
 455
