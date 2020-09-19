@@ -157,7 +157,7 @@ rails db:migrate:reset
 
 #### 7.5 Professional-grade deployment
 ##### 7.5.1 SSL in production
-SSL - Secure Sockets Layer (SSL)
+SSL - Secure Sockets Layer (SSL): for secure communications
 Enforce SSL by setting config.force_ssl = true in production.rb
 ##### 7.5.2 Production webserver
 Puma: an HTTP server capable of handling a large number of incoming requests.
@@ -168,10 +168,7 @@ Create a Procfile to tell Heroku to run a Puma process in production.
 Configure the production db by updating the production section of the db config file: config/database.yml.
 
 ##### 7.5.4 Production deployment
-
-
-#### 7.6 Conclusion
-433
+heroku run rails db:migrate after deploying to Heroku
 
 ### 8 Basic login
 435
