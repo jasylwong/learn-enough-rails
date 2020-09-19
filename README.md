@@ -171,7 +171,18 @@ Configure the production db by updating the production section of the db config 
 heroku run rails db:migrate after deploying to Heroku
 
 ### 8 Basic login
-435
+#### 8.1 Sessions
+Session: semi-permanent connection between two computers (eg client computer and server)
+Cookies: small pieces of text placed on a user's browser
+Sessions resource will use cookies instead of a db back-end to persist data
+#### 8.1.1 Sessions controller
+#### 8.1.2 Login form
+
+#### 8.2 Logging in
+455
+#### 8.3 Logging out
+492
+
 
 ### 9 Advanced login
 499
