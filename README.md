@@ -201,6 +201,8 @@ See p 477 for further code.
 ##### 8.2.4 Testing layout changes
 Fixtures: way of organizing data to be loaded into the test db.
 
+##### 8.2.5 Login upon signup
+Helper methods aren't availabe in tests by default
 
 #### 8.3 Logging out
 492
