@@ -198,6 +198,10 @@ For using dropdown menus: $ yarn add jquery@3.5.1 bootstrap@3.4.1
 Add to your html: <meta name="viewport" content="width=device-width, initial-scale=1">
 See p 477 for further code.
 
+##### 8.2.4 Testing layout changes
+Fixtures: way of organizing data to be loaded into the test db.
+
+
 #### 8.3 Logging out
 492
 
