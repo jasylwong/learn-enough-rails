@@ -184,7 +184,9 @@ Contents of the flash persist for one request, but—unlike a redirect, re-rende
 Use flash.now for the above - the contents disappear after an additional request.
 
 #### 8.2 Logging in
-455
+Modules allow using functions across multiple controllers and views.
+Helper modules are auto included in Rails views.
+
 #### 8.3 Logging out
 492
 
