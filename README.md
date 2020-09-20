@@ -186,6 +186,12 @@ Use flash.now for the above - the contents disappear after an additional request
 #### 8.2 Logging in
 Modules allow using functions across multiple controllers and views.
 Helper modules are auto included in Rails views.
+##### 8.2.1 The log_in method
+reset_session prevents session fixation hack attacks
+User.find(id) raises an exception if user id doesn't exist. .find_by(id: id) returns nil instead.
+Memoization: remembering variable assignments from one method invocation to the next
+##### 8.2.3 Changing the layout links
+
 
 #### 8.3 Logging out
 492
