@@ -191,7 +191,12 @@ reset_session prevents session fixation hack attacks
 User.find(id) raises an exception if user id doesn't exist. .find_by(id: id) returns nil instead.
 Memoization: remembering variable assignments from one method invocation to the next
 ##### 8.2.3 Changing the layout links
+For using dropdown menus: $ yarn add jquery@3.5.1 bootstrap@3.4.1
+  and add jQuery configuration to config/webpack/environment.js and jQuery and bootrap to JS packs
 
+###### Mobile styling
+Add to your html: <meta name="viewport" content="width=device-width, initial-scale=1">
+See p 477 for further code.
 
 #### 8.3 Logging out
 492
