@@ -205,7 +205,7 @@ Fixtures: way of organizing data to be loaded into the test db.
 Helper methods aren't availabe in tests by default
 
 #### 8.3 Logging out
-492
+reset_session to remove all (not just one) session variables
 
 
 ### 9 Advanced login
