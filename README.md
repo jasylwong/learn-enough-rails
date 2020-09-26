@@ -207,9 +207,12 @@ Helper methods aren't availabe in tests by default
 #### 8.3 Logging out
 reset_session to remove all (not just one) session variables
 
-
 ### 9 Advanced login
 499
+Fill this part in
+##### 9.1.3 Forgetting users
+##### 9.1.4 Two subtle bugs
+
 
 ### 10 Updating, showing, and deleting users
 549
