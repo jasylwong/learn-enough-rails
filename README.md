@@ -212,11 +212,8 @@ reset_session to remove all (not just one) session variables
 Fill this part in
 ##### 9.1.3 Forgetting users
 ##### 9.1.4 Two subtle bugs
-
 #### 9.2 "Remember me" checkbox
-
 #### 9.3 Remember tests
-533
 
 
 #### 9.3.1
