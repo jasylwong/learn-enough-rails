@@ -214,9 +214,9 @@ Fill this part in
 ##### 9.1.4 Two subtle bugs
 #### 9.2 "Remember me" checkbox
 #### 9.3 Remember tests
-
-
 #### 9.3.1
+In a test, you can access instance variables defined in a controller by using 'assigns' with the corresponding symbol.
+
 #### 9.3.2
 539
 
