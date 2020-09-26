@@ -213,6 +213,16 @@ Fill this part in
 ##### 9.1.3 Forgetting users
 ##### 9.1.4 Two subtle bugs
 
+#### 9.2 "Remember me" checkbox
+
+#### 9.3 Remember tests
+533
+
+
+#### 9.3.1
+#### 9.3.2
+539
+
 
 ### 10 Updating, showing, and deleting users
 549
