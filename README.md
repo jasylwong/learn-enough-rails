@@ -217,7 +217,7 @@ Fill this part in
 #### 9.3.1
 In a test, you can access instance variables defined in a controller by using 'assigns' with the corresponding symbol.
 
-#### 9.3.2
+#### 9.3.2 Testing the remember branch
 539
 
 
