@@ -218,11 +218,23 @@ Fill this part in
 In a test, you can access instance variables defined in a controller by using 'assigns' with the corresponding symbol.
 
 #### 9.3.2 Testing the remember branch
-539
-
 
 ### 10 Updating, showing, and deleting users
-549
+#### 10.1 Updating users
+edit action responds to a POST request
+update action responds to a PATCH request
+##### 10.1.1 Edit form
+Rails uses POST if a model instance with new_record? is true, and PATCH if false.
+
+#### 10.2
+566
+
+#### 10.3
+585
+
+#### 10.4
+604
+
 
 ### 11 Account activation
 621
