@@ -254,6 +254,10 @@ create! raises an exception rather than returning false, which the method create
 rails db:migrate:reset
 rails db:seed
 #### 10.3.3 Pagination
+using special pagination Gems and methods
+
+#### 10.3.4 Users index test
+
 
 #### 10.4
 604
