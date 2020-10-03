@@ -247,7 +247,8 @@ So users can only edit their own info
 If a non-logged-in user tries to go to the edit page, they are redirected to login. When then logged in, they should go straight to the edit page, rather than the root page.
 
 #### 10.3
-585
+#### 10.3.1 Users index
+
 
 #### 10.4
 604
