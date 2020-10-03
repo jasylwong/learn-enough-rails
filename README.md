@@ -228,6 +228,8 @@ Rails uses POST if a model instance with new_record? is true, and PATCH if false
 
 ##### 10.1.2 Unsuccessful edits
 ##### 10.1.3 Testing unsuccessful edits
+##### 10.1.4 Successful edits (with TDD)
+
 
 
 #### 10.2
