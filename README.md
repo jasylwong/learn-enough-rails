@@ -229,11 +229,15 @@ Rails uses POST if a model instance with new_record? is true, and PATCH if false
 ##### 10.1.2 Unsuccessful edits
 ##### 10.1.3 Testing unsuccessful edits
 ##### 10.1.4 Successful edits (with TDD)
+Pass allow_nil: true option to validates in user, to allow blank passwords in the user edit form to indicate no changes to it. This does not mean users can have blank passwords when signing up, due to 'has_secure_passwords'.
 
+#### 10.2 Authorization
+Authentication allows identifying of users
+Authorisation lets us control what they do
+Currently eidt and upate actions have a security flaw: they allow anyone (even non-users) to access either action and update the info for any user. This section addresses that.
 
-
-#### 10.2
-566
+##### 10.2.1 Requiring logged-in users
+before filters eg before_action, arrange for particular methods to be called before the given action
 
 #### 10.3
 585
