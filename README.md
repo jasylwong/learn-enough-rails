@@ -239,6 +239,11 @@ Currently eidt and upate actions have a security flaw: they allow anyone (even n
 ##### 10.2.1 Requiring logged-in users
 before filters eg before_action, arrange for particular methods to be called before the given action
 
+The patch method in the User controller test sends a PATCH request to the user_path(@user), which gets routed to the update action in the Users controller.
+
+##### 10.2.2 Requiring the right user
+So users can only edit their own info
+
 #### 10.3
 585
 
