@@ -243,6 +243,8 @@ The patch method in the User controller test sends a PATCH request to the user_p
 
 ##### 10.2.2 Requiring the right user
 So users can only edit their own info
+##### 10.2.3 Friendly forwarding
+If a non-logged-in user tries to go to the edit page, they are redirected to login. When then logged in, they should go straight to the edit page, rather than the root page.
 
 #### 10.3
 585
