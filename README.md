@@ -248,7 +248,12 @@ If a non-logged-in user tries to go to the edit page, they are redirected to log
 
 #### 10.3
 #### 10.3.1 Users index
-
+#### 10.3.2 Sample users
+Using faker
+create! raises an exception rather than returning false, which the method create does instead
+rails db:migrate:reset
+rails db:seed
+#### 10.3.3 Pagination
 
 #### 10.4
 604
