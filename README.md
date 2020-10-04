@@ -261,6 +261,7 @@ using special pagination Gems and methods
 Making compact views using partials, render, and @ with a model (eg @user)
 
 #### 10.4 Deleting users
+DELETE request, destroy action
 ##### 10.4.1 Administrative users
 $ rails generate migration add_admin_to_users admin:boolean
 Ensure people can not make PATCH requests to make themselves admins by using 'require' and 'permit' on the 'params' hash without the admin attribute.
@@ -268,6 +269,9 @@ Ensure people can not make PATCH requests to make themselves admins by using 're
 ##### 10.4.2 The destroy action
 Web browsers can't send DELETE request natively, so Rails fakes them with JavasScript (which therefore needs to be enabled in your browser).
 Need access control on the destroy action to prevent attackers issuing a DELETE request directly from the command line to delete any user on the site. Do this using a before filter.
+
+##### 10.4.3 User destroy tests
+
 
 ### 11 Account activation
 621
