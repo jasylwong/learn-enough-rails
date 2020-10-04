@@ -260,8 +260,11 @@ using special pagination Gems and methods
 #### 10.3.5 Partial refactoring
 Making compact views using partials, render, and @ with a model (eg @user)
 
-#### 10.4
-604
+#### 10.4 Deleting users
+##### 10.4.1 Administrative users
+$ rails generate migration add_admin_to_users admin:boolean
+
+
 
 
 ### 11 Account activation
