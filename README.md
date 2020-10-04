@@ -265,7 +265,9 @@ Making compact views using partials, render, and @ with a model (eg @user)
 $ rails generate migration add_admin_to_users admin:boolean
 Ensure people can not make PATCH requests to make themselves admins by using 'require' and 'permit' on the 'params' hash without the admin attribute.
 
-
+##### 10.4.2 The destroy action
+Web browsers can't send DELETE request natively, so Rails fakes them with JavasScript (which therefore needs to be enabled in your browser).
+Need access control on the destroy action to prevent attackers issuing a DELETE request directly from the command line to delete any user on the site. Do this using a before filter.
 
 ### 11 Account activation
 621
