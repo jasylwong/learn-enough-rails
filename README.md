@@ -263,7 +263,7 @@ Making compact views using partials, render, and @ with a model (eg @user)
 #### 10.4 Deleting users
 ##### 10.4.1 Administrative users
 $ rails generate migration add_admin_to_users admin:boolean
-
+Ensure people can not make PATCH requests to make themselves admins by using 'require' and 'permit' on the 'params' hash without the admin attribute.
 
 
 
