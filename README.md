@@ -257,6 +257,9 @@ rails db:seed
 using special pagination Gems and methods
 #### 10.3.4 Users index test
 
+#### 10.3.5 Partial refactoring
+Making compact views using partials, render, and @ with a model (eg @user)
+
 #### 10.4
 604
 
