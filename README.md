@@ -261,7 +261,7 @@ using special pagination Gems and methods
 Making compact views using partials, render, and @ with a model (eg @user)
 
 #### 10.4 Deleting users
-DELETE request, destroy action
+DELETE request (which is sent to a) destroy action
 ##### 10.4.1 Administrative users
 $ rails generate migration add_admin_to_users admin:boolean
 Ensure people can not make PATCH requests to make themselves admins by using 'require' and 'permit' on the 'params' hash without the admin attribute.
@@ -271,10 +271,31 @@ Web browsers can't send DELETE request natively, so Rails fakes them with JavasS
 Need access control on the destroy action to prevent attackers issuing a DELETE request directly from the command line to delete any user on the site. Do this using a before filter.
 
 ##### 10.4.3 User destroy tests
+#### 10.5 Conclusion
+
+To reset and use seed data in Heroku:
+$ git push heroku
+$ heroku pg:reset DATABASE
+$ heroku run rails db:migrate
+$ heroku run rails db:seed
+
 
 
 ### 11 Account activation
-621
+See p622 for table with the analogy between login, remembering, account activation, and password reset.
+
+#### 11.1 Account activations resource
+##### 11.1.1 Account activations controller
+##### 11.1.2 Account activation data model
+
+#### 11.2
+632
+
+#### 11.3
+650
+
+#### 11.4
+669
 
 ### 12 Password reset
 675
