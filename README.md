@@ -297,6 +297,8 @@ To include the email, use a query parameter, which in a URL appears as a key-val
 
 Use CGI.escape(...) to find an escaped value
 
+##### 11.2.2 Email previews
+See results of email templates using email previews (special URLs exposed by Rails), by configurating our development environment.
 
 #### 11.3
 650
