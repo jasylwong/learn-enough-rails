@@ -302,6 +302,8 @@ See results of email templates using email previews (special URLs exposed by Rai
 
 ##### 11.2.3 Email tests
 
+##### 11.2.4 Updating the Users create action
+... to use the mailer in our app.
 
 #### 11.3
 650
