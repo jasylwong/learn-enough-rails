@@ -287,6 +287,7 @@ See p622 for table with the analogy between login, remembering, account activati
 #### 11.1 Account activations resource
 ##### 11.1.1 Account activations controller
 ##### 11.1.2 Account activation data model
+before_create can be used before an object is created. Along with the associated method, callbacks like these are called method references.
 
 #### 11.2
 632
