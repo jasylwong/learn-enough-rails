@@ -300,6 +300,9 @@ Use CGI.escape(...) to find an escaped value
 ##### 11.2.2 Email previews
 See results of email templates using email previews (special URLs exposed by Rails), by configurating our development environment.
 
+##### 11.2.3 Email tests
+
+
 #### 11.3
 650
 
