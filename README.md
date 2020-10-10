@@ -295,6 +295,8 @@ Send emails with the help of the Action Mailer library. Mailers are structured m
 We  model activations using an Account Activations resource, so the token can appear as the argument of the named route: edit_account_activation_url(@user.activation_token, ...)
 To include the email, use a query parameter, which in a URL appears as a key-value pair located after a question mark eg www.whatever.com/asdfaf/edit?email=foo%40example.com
 
+Use CGI.escape(...) to find an escaped value
+
 
 #### 11.3
 650
