@@ -290,7 +290,9 @@ See p622 for table with the analogy between login, remembering, account activati
 before_create can be used before an object is created. Along with the associated method, callbacks like these are called method references.
 
 #### 11.2
-632
+Send emails with the help of the Action Mailer library. Mailers are structured much like controller actions, with email templates defined as views.
+##### 11.2.1 Mailer templates
+
 
 #### 11.3
 650
