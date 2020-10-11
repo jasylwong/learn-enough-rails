@@ -311,6 +311,8 @@ metaprogramming: essentially a program that writes a program (a strong suit of R
 This is available to Ruby via the .send method, which allows calling a method with a name of our choice by 'sending a message' to a given object. (see p652 for eg)
 
 ##### 11.3.2 Activation edit action
+##### 11.3.3 Activation test and refactoring
+The assigns method lets us access instance variables in the corresponding action (although deprecated now)
 
 
 #### 11.4
