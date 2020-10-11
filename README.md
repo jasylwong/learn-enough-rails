@@ -305,8 +305,11 @@ See results of email templates using email previews (special URLs exposed by Rai
 ##### 11.2.4 Updating the Users create action
 ... to use the mailer in our app.
 
-#### 11.3
-650
+#### 11.3 Activating the account
+##### 11.3.1 Generalizing the authenticated? method
+metaprogramming: essentially a program that writes a program (a strong suit of Ruby)
+This is available to Ruby via the .send method, which allows calling a method with a name of our choice by 'sending a message' to a given object. (see p652 for eg)
+
 
 #### 11.4
 669
