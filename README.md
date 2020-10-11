@@ -310,6 +310,8 @@ See results of email templates using email previews (special URLs exposed by Rai
 metaprogramming: essentially a program that writes a program (a strong suit of Ruby)
 This is available to Ruby via the .send method, which allows calling a method with a name of our choice by 'sending a message' to a given object. (see p652 for eg)
 
+##### 11.3.2 Activation edit action
+
 
 #### 11.4
 669
