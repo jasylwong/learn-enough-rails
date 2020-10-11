@@ -314,9 +314,9 @@ This is available to Ruby via the .send method, which allows calling a method wi
 ##### 11.3.3 Activation test and refactoring
 The assigns method lets us access instance variables in the corresponding action (although deprecated now)
 
-
-#### 11.4
-669
+#### 11.4 Email in production
+Using SendGrid
+(Not implemented as requires credit card details)
 
 ### 12 Password reset
 675
