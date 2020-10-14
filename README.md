@@ -319,7 +319,25 @@ Using SendGrid
 (Not implemented as requires credit card details)
 
 ### 12 Password reset
-675
+#### 12.1 Password resets resource
+##### 12.1.1 Password resets controller
+
+
+
+#### 12.2
+691
+
+#### 12.3
+699
+
+#### 12.4
+716
+
+#### 12.5 Conclusion
+719
+
+#### 12.6
+721
 
 ### 13 User microposts
 723
