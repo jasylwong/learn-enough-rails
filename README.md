@@ -326,6 +326,7 @@ Using SendGrid
 
 #### 12.2 Password reset emails
 ##### 12.2.1 Password reset mailer and templates
+##### 12.2.2 Email tests
 
 
 
