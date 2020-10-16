@@ -322,7 +322,7 @@ Using SendGrid
 #### 12.1 Password resets resource
 ##### 12.1.1 Password resets controller
 ##### 12.1.2 New password resets
-
+##### 12.1.3 Password resets create action
 
 #### 12.2
 691
