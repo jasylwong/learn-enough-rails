@@ -324,8 +324,10 @@ Using SendGrid
 ##### 12.1.2 New password resets
 ##### 12.1.3 Password resets create action
 
-#### 12.2
-691
+#### 12.2 Password reset emails
+##### 12.2.1 Password reset mailer and templates
+
+
 
 #### 12.3
 699
