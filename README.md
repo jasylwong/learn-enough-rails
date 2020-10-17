@@ -328,7 +328,9 @@ Using SendGrid
 ##### 12.2.1 Password reset mailer and templates
 ##### 12.2.2 Email tests
 
-
+#### 12.3 Resetting the password
+##### 12.3.1 Reset edit action
+Use a hidden field to place (but not display) the email on a page.
 
 #### 12.3
 699
