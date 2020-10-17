@@ -332,6 +332,7 @@ Using SendGrid
 ##### 12.3.1 Reset edit action
 Use a hidden field to place (but not display) the email on a page.
 ##### 12.3.2 Updating the reset
+##### 12.3.3 Password reset test
 
 
 #### 12.4
