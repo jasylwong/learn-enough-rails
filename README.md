@@ -334,15 +334,13 @@ Use a hidden field to place (but not display) the email on a page.
 ##### 12.3.2 Updating the reset
 ##### 12.3.3 Password reset test
 
-
-#### 12.4
-716
+#### 12.4 Email in production (take two)
+(Not used, as requires credit card details on Heroku)
+Using SendGrid
 
 #### 12.5 Conclusion
-719
 
-#### 12.6
-721
+#### 12.6 Proof of expiration comparison
 
 ### 13 User microposts
 723
