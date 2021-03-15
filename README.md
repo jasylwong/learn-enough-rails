@@ -316,7 +316,6 @@ The assigns method lets us access instance variables in the corresponding action
 
 #### 11.4 Email in production
 Using SendGrid
-(Not implemented as requires credit card details)
 
 ### 12 Password reset
 #### 12.1 Password resets resource
