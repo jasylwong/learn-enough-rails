@@ -65,9 +65,10 @@ Rails.application.configure do
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :smtp
-  # host = 'learn-enough-rails-blog.herokuapp.com'
-  # config.action_mailer.default_url_options = { host: host }
+  config.action_mailer.default_url_options = {
+    host: 'learn-enough-rails-blog.herokuapp.com'
+  }
+
   # ActionMailer::Base.smtp_settings = {
   #   :address              => 'smtp.sendgrid.net',
   #   :port                 => '587',
@@ -77,13 +78,17 @@ Rails.application.configure do
   #   :domain               => 'heroku.com',
   #   :enable_starttls_auto => true
   # }
-  config.action_mailer.smtp_settings = {
-    :user_name => '790c0512fcab57',
-    :password => 'c9068a8fc9a2f5',
-    :address => 'smtp.mailtrap.io',
-    :domain => 'smtp.mailtrap.io',
-    :port => '2525',
-    :authentication => :cram_md5
+  response = RestClient.get "https://mailtrap.io/api/v1/inboxes.json?api_token=#{ENV['MAILTRAP_API_TOKEN']}"
+  first_inbox = JSON.parse(response)[0] # get first inbox
+
+  ActionMailer::Base.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings = {
+    :user_name => first_inbox['username'],
+    :password => first_inbox['password'],
+    :address => first_inbox['domain'],
+    :domain => first_inbox['domain'],
+    :port => first_inbox['smtp_ports'][0],
+    :authentication => :plain
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to

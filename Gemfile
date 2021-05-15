@@ -10,6 +10,7 @@ gem 'faker', '2.11.0'
 gem 'will_paginate', '3.3.0'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.4.1'
+gem 'rest-client', '~> 2.1'
 # Use Puma as the app server
 gem 'puma', '4.3.5'
 # Use SCSS for stylesheets
