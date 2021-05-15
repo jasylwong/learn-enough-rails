@@ -68,16 +68,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = {
     host: 'learn-enough-rails-blog.herokuapp.com'
   }
-
-  # ActionMailer::Base.smtp_settings = {
-  #   :address              => 'smtp.sendgrid.net',
-  #   :port                 => '587',
-  #   :authentication       => :plain,
-  #   :user_name            => 'apikey',
-  #   :password             => ENV['SENDGRID_PASSWORD'],
-  #   :domain               => 'heroku.com',
-  #   :enable_starttls_auto => true
-  # }
+  
   response = RestClient.get "https://mailtrap.io/api/v1/inboxes.json?api_token=#{ENV['MAILTRAP_API_TOKEN']}"
   first_inbox = JSON.parse(response)[0] # get first inbox
 
