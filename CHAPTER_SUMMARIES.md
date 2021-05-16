@@ -341,7 +341,16 @@ Using MailTrap instead of SendGrid & Heroku because of account issues with the l
 #### 12.6 Proof of expiration comparison
 
 ### 13 User microposts
-723
+#### 13.1 A Micropost model
+##### 13.1.1 The basic model
+- `$ rails generate model Micropost content:text user:references`
+- We can use `text` instead of `string` for a model attribute, with no result in performance difference
+- 
+
+#### Showing microposts
+#### Manipulating microposts
+#### Micropost images
+#### Conclusion
 
 ### 14 Following users
 829 - 905
