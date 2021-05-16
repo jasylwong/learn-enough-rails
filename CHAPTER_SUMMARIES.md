@@ -365,10 +365,11 @@ so there are no orphan objects
 #### 13.2 Showing microposts
 ##### 13.2.1 Rendering microposts
 - rails db:migrate:reset = db:drop, db:create, db:migrate
-- ActionView has a `time_ago_in_words` method
-- 
+- ActionView has a `time_ago_in_words` method (use it with the `helper` object in the console)
 
-##### 13.2.2
+##### 13.2.2 Sample microposts
+- the `take` method returns the number of model instances as defined by the argument
+
 ##### 13.2.3
 
 
