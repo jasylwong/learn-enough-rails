@@ -345,7 +345,16 @@ Using MailTrap instead of SendGrid & Heroku because of account issues with the l
 ##### 13.1.1 The basic model
 - `$ rails generate model Micropost content:text user:references`
 - We can use `text` instead of `string` for a model attribute, with no result in performance difference
-- 
+- Adding an index to a column in a table is similar to adding an index to a book 
+(eg finding a user by email is akin to finding a word on a page - difficult if you have to go through every page, but easy with an index section)
+
+##### 13.1.2 Micropost validations
+
+##### 13.1.3
+
+
+##### 13.1.4
+
 
 #### Showing microposts
 #### Manipulating microposts
