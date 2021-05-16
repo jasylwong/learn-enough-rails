@@ -351,7 +351,8 @@ Using MailTrap instead of SendGrid & Heroku because of account issues with the l
 ##### 13.1.2 Micropost validations
 
 ##### 13.1.3
-
+- When one model `belongs_to` another, the idiomatically correct way is to make it _through_ its association with that model eg `user.microposts.create` instead of `Micropost.create`, or 
+`user.microposts.build` instead of `Micropost.new`
 
 ##### 13.1.4
 
