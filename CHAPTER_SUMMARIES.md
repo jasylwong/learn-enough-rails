@@ -350,12 +350,17 @@ Using MailTrap instead of SendGrid & Heroku because of account issues with the l
 
 ##### 13.1.2 Micropost validations
 
-##### 13.1.3
+##### 13.1.3 User/Micropost associations
 - When one model `belongs_to` another, the idiomatically correct way is to make it _through_ its association with that model eg `user.microposts.create` instead of `Micropost.create`, or 
 `user.microposts.build` instead of `Micropost.new`
 
-##### 13.1.4
-
+##### 13.1.4 Micropost refinements
+- 'stabby lambda' syntax for Proc(edures)/lambdas (anonymous functions - those without names)
+- they take in a block, and returns a Proc, which can be evaluated using the `.call` method
+- eg. `$ -> { puts 'foo' }` returns a Proc object, but `$ -> { puts 'foo' }.call` puts `foo`
+- Set a default scope in a model using the scope name `default_scope`
+- we should include a dependent destroy option if there is a `has_one`:`belongs_to` association,
+so there are no orphan objects
 
 #### Showing microposts
 #### Manipulating microposts
