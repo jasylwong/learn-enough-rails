@@ -362,7 +362,17 @@ Using MailTrap instead of SendGrid & Heroku because of account issues with the l
 - we should include a dependent destroy option if there is a `has_one`:`belongs_to` association,
 so there are no orphan objects
 
-#### Showing microposts
+#### 13.2 Showing microposts
+##### 13.2.1 Rendering microposts
+- rails db:migrate:reset = db:drop, db:create, db:migrate
+- ActionView has a `time_ago_in_words` method
+- 
+
+##### 13.2.2
+##### 13.2.3
+
+
+
 #### Manipulating microposts
 #### Micropost images
 #### Conclusion
