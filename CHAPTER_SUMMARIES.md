@@ -373,9 +373,17 @@ so there are no orphan objects
 ##### 13.2.3 Profile micropost tests
 - Nesting syntax for `assert_select h1>img.gravatar`checks for an `img` tag with class `gravatar` inside a top-level heading tag (`h1`)
 
-#### Manipulating microposts
-#### Micropost images
-#### Conclusion
+#### 13.3 Manipulating microposts
+##### 13.3.1 Micropost access control
+- 
+
+##### 13.3.
+##### 13.3.
+##### 13.3.
+##### 13.3.
+
+#### 13.4 Micropost images
+#### 13.5 Conclusion
 
 ### 14 Following users
 829 - 905
