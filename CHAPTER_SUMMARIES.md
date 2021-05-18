@@ -375,9 +375,12 @@ so there are no orphan objects
 
 #### 13.3 Manipulating microposts
 ##### 13.3.1 Micropost access control
-- 
+- Make controller methods available to all controllers by putting it in the ApplicationController
 
-##### 13.3.
+##### 13.3.2 Creating microposts
+- the `pluralize` method can be used to pluralize words
+- pass objects to partials using a hash with key equal to the desired name of hte variable in the partial, and value equal to the object
+
 ##### 13.3.
 ##### 13.3.
 ##### 13.3.
