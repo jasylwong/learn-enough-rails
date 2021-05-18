@@ -370,7 +370,8 @@ so there are no orphan objects
 ##### 13.2.2 Sample microposts
 - the `take` method returns the number of model instances as defined by the argument
 
-##### 13.2.3
+##### 13.2.3 Profile micropost tests
+- 
 
 
 
