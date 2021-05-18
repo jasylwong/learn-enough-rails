@@ -371,9 +371,7 @@ so there are no orphan objects
 - the `take` method returns the number of model instances as defined by the argument
 
 ##### 13.2.3 Profile micropost tests
-- 
-
-
+- Nesting syntax for `assert_select h1>img.gravatar`checks for an `img` tag with class `gravatar` inside a top-level heading tag (`h1`)
 
 #### Manipulating microposts
 #### Micropost images
