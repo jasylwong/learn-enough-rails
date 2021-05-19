@@ -387,8 +387,10 @@ so there are no orphan objects
 
 ##### 13.3.4 Destroying microposts
 - We can direct towars the referring page (without having to explicitly say what it is eg `root_url`) using `request.referrer`
+- `redirect_to request.referrer || root_url` is an alternative to `redirect_back(fallback_location: :root_url)`
 
-##### 13.3.
+##### 13.3.5 Micropost tests
+- 
 
 #### 13.4 Micropost images
 #### 13.5 Conclusion
