@@ -381,7 +381,10 @@ so there are no orphan objects
 - the `pluralize` method can be used to pluralize words
 - pass objects to partials using a hash with key equal to the desired name of hte variable in the partial, and value equal to the object
 
-##### 13.3.
+##### 13.3.3 A proto-feed
+- If you pass raw SQL into an ActiveRecord method (eg .where), be careful of SQL injection. Consider using a ? to escape a variable.
+
+
 ##### 13.3.
 ##### 13.3.
 
