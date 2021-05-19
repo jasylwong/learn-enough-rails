@@ -383,9 +383,11 @@ so there are no orphan objects
 
 ##### 13.3.3 A proto-feed
 - If you pass raw SQL into an ActiveRecord method (eg .where), be careful of SQL injection. Consider using a ? to escape a variable.
+- You can pass params to will_paginate to determine what page it goes to, and which controller/actions to use
 
+##### 13.3.4 Destroying microposts
+- We can direct towars the referring page (without having to explicitly say what it is eg `root_url`) using `request.referrer`
 
-##### 13.3.
 ##### 13.3.
 
 #### 13.4 Micropost images
