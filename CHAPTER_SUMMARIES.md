@@ -400,7 +400,15 @@ so there are no orphan objects
 - Then add the file to the newly created object using the Active Storage `attach` method (likely in the controller create action)
 - Once uploaded, we can render it using a <img> tag (or the `image_tag` helper in Rails)
 
-##### 13.4.2
+##### 13.4.2 Image validation
+- We should add constraints on the uploaded file eg size or type
+- Active Storage doesn't offer much native support, but we can use the active_storage_validations gem in the backend
+- Should also use client-side checks:
+  - eg JS for restricting size
+  - `accept` value in html `file_field`
+- However, it is still possible to bypass front end validations by issuing direct POST requests using eg `curl`. This is why backend validations are essential
+
+
 ##### 13.4.3
 ##### 13.4.4
 
