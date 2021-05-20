@@ -390,9 +390,20 @@ so there are no orphan objects
 - `redirect_to request.referrer || root_url` is an alternative to `redirect_back(fallback_location: :root_url)`
 
 ##### 13.3.5 Micropost tests
-- 
 
 #### 13.4 Micropost images
+##### 13.4.1 Basic image upload
+- Active Storage is used to to upload and handle files, including images
+- Add it with `$ rails active_storage:install`, and then run the migration created
+- The `has_one_attached` method allows us to associate an uploaded file with a given model (and `has_many_attached`)
+- To allow file uploads in a HTML form, use a `file_field` tag
+- Then add the file to the newly created object using the Active Storage `attach` method (likely in the controller create action)
+- Once uploaded, we can render it using a <img> tag (or the `image_tag` helper in Rails)
+
+##### 13.4.2
+##### 13.4.3
+##### 13.4.4
+
 #### 13.5 Conclusion
 
 ### 14 Following users
