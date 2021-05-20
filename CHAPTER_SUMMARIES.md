@@ -408,8 +408,11 @@ so there are no orphan objects
   - `accept` value in html `file_field`
 - However, it is still possible to bypass front end validations by issuing direct POST requests using eg `curl`. This is why backend validations are essential
 
+##### 13.4.3 Image resizing
+- Resize images using the image manipulation program ImageMagick: `$ brew install imagemagick`, and gems `image_processing` and `mini_magick`
+- imagemagick is only needed on dev if using Heroku for deployment, as it comes preinstalled in prod
+- Then use Active Storage's `variant` method for creating transformed images, with the `resize_to_limit` option
 
-##### 13.4.3
 ##### 13.4.4
 
 #### 13.5 Conclusion
