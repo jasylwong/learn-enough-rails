@@ -413,7 +413,14 @@ so there are no orphan objects
 - imagemagick is only needed on dev if using Heroku for deployment, as it comes preinstalled in prod
 - Then use Active Storage's `variant` method for creating transformed images, with the `resize_to_limit` option
 
-##### 13.4.4
+##### 13.4.4 Image upload in production
+- Using a cloud storage service to store files eg AWS S3
+- Add aws-sdk-s3 gem to production env
+- Sign up for AWS
+- Create a user via AWS Identity and Access Management (AIM)
+- Set up Heroku ENV variables
+- Use them in a special YAML file for configuring storage options
+- Add the Active Storage service configuration parameter
 
 #### 13.5 Conclusion
 
