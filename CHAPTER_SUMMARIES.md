@@ -424,6 +424,11 @@ so there are no orphan objects
 - deploy
 
 #### 13.5 Conclusion
+- Deploying to heroku:
+  - `$ git push heroku`
+  - `$ heroku pg:reset DATABASE`
+  - `$ heroku run rails db:migrate`
+  - `$ heroku run rails db:seed`
 
 ### 14 Following users
 829 - 905
