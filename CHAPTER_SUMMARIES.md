@@ -443,9 +443,12 @@ so there are no orphan objects
 ##### 14.1.4 Followed users
 - Add a second `has_many` association 'following' to access the users one user follows via the
 `Relationship` table
+- We use the additional `source` option here because we've used a different plural word ('following') for the singular 'followed', which Rails will not be able to register
 
-##### 14.1.5
-
+##### 14.1.5 Followers
+- Add the equivalent as before, but this time for followers
+- We don't need to use a `source` option in the user model `has_many` association, because Rails
+can understand 'followers' is plural of 'follower'
 
 #### 14.2
 
