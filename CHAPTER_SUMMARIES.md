@@ -438,7 +438,7 @@ so there are no orphan objects
 ##### 14.1.2 User/relationship associations
 - We can set up a has_many relationship assocation as a different name through a class with a foreign key
 
-##### 14.1.3
+##### 14.1.3 Relationship validations
 
 ##### 14.1.4
 
