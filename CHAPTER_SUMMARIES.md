@@ -435,7 +435,8 @@ so there are no orphan objects
 ##### 14.1.1 A problem with the data model (and a solution)
 - Add followers and followeds via a relationship table
 
-##### 14.1.2
+##### 14.1.2 User/relationship associations
+- We can set up a has_many relationship assocation as a different name through a class with a foreign key
 
 ##### 14.1.3
 
