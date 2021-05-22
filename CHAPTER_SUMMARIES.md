@@ -451,7 +451,15 @@ so there are no orphan objects
 can understand 'followers' is plural of 'follower'
 - running methods on user.following (like .include?) is more efficient because Rails arranges for the comparison to happen directly in the database, rather than pulling out all the followed users out of the db first
 
-#### 14.2
+#### 14.2 A web interface for following users
+##### 14.2.1 Sample following data
+
+##### 14.2.2
+##### 14.2.3 
+##### 14.2.4 
+##### 14.2.5 
+##### 14.2.6 
+- 
 
 #### 14.3
 
