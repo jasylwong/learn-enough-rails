@@ -440,11 +440,11 @@ so there are no orphan objects
 
 ##### 14.1.3 Relationship validations
 
-##### 14.1.4
+##### 14.1.4 Followed users
+- Add a second `has_many` association 'following' to access the users one user follows via the
+`Relationship` table
 
 ##### 14.1.5
-
-
 
 
 #### 14.2
