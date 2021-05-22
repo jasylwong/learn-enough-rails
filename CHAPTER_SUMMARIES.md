@@ -431,6 +431,23 @@ so there are no orphan objects
   - `$ heroku run rails db:seed`
 
 ### 14 Following users
-829 - 905
+#### 14.1 The Relationship model
+##### 14.1.1 A problem with the data model (and a solution)
+- Add followers and followeds via a relationship table
+
+##### 14.1.2
+
+##### 14.1.3
+
+##### 14.1.4
+
+##### 14.1.5
 
 
+
+
+#### 14.2
+
+#### 14.3
+
+#### 14.4
