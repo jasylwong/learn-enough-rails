@@ -449,6 +449,7 @@ so there are no orphan objects
 - Add the equivalent as before, but this time for followers
 - We don't need to use a `source` option in the user model `has_many` association, because Rails
 can understand 'followers' is plural of 'follower'
+- running methods on user.following (like .include?) is more efficient because Rails arranges for the comparison to happen directly in the database, rather than pulling out all the followed users out of the db first
 
 #### 14.2
 
