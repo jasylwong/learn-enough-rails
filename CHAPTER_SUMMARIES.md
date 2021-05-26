@@ -458,7 +458,9 @@ can understand 'followers' is plural of 'follower'
 - using the `member` method in routes arranges for them to respond to URLs containing the ID. eg. '/users/1/following'
 - The `collection` method in routes works without the id, eg for a URL to see ALL cases eg '/users/following'
 
-##### 14.2.3 
+##### 14.2.3 Following and followers pages
+- 
+
 ##### 14.2.4 
 ##### 14.2.5 
 ##### 14.2.6 
