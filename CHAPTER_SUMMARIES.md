@@ -459,9 +459,9 @@ can understand 'followers' is plural of 'follower'
 - The `collection` method in routes works without the id, eg for a URL to see ALL cases eg '/users/following'
 
 ##### 14.2.3 Following and followers pages
-- 
 
-##### 14.2.4 
+##### 14.2.4 A working follow button the standard way
+
 ##### 14.2.5 
 ##### 14.2.6 
 - 
