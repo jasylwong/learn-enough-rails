@@ -477,7 +477,7 @@ end
 ```
 only one of the lines gets executed
 - Configuration is needed to make it work in browsers with JS disabled
-- For Ajax requests, Rails uto calls a JS embedded Ruby file (.js.erb) with the same name as the action. Need to create these to update the user profile page upon being (un)followed.
+- For Ajax requests, Rails uto calls a JS embedded Ruby file (.js.erb) with the same name as the action. Need to create these to update the user profile page upon being (un)followed. 
 - In .js.erb files, Rails auto provides the jQuery helpers to manipulate the page using the DOM. 
 - The `escape_javascript` method is needed to escape out the result when inserting HTML in a JS file
 
