@@ -462,9 +462,26 @@ can understand 'followers' is plural of 'follower'
 
 ##### 14.2.4 A working follow button the standard way
 
-##### 14.2.5 
+##### 14.2.5 A working follow button with Ajax
+- The previous section redirected back to the original page after the create or destroy actions in the Relationships controller
+- Ajax (Async JS And Xml) allows web pages to send requests asynchronously to the server without leaving the page
+- Do this in web forms by changing `local: true` to `remote: true` (this is `data-remote` in actual HTML)
+- This tells Rails to allow the form to be handled by JS
+- Then have to arrange for the Relationships controller to respond to Ajax requests using `respond_to` method
+- In the block:
+```
+respond_to do |format|
+  format.html { redirect_to user }
+  format.js
+end
+```
+only one of the lines gets executed
+- Configuration is needed to make it work in browsers with JS disabled
+- For Ajax requests, Rails uto calls a JS embedded Ruby file (.js.erb) with the same name as the action. Need to create these to update the user profile page upon being (un)followed.
+- In .js.erb files, Rails auto provides the jQuery helpers to manipulate the page using the DOM. 
+- The `escape_javascript` method is needed to escape out the result when inserting HTML in a JS file
+
 ##### 14.2.6 
-- 
 
 #### 14.3
 
