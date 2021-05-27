@@ -481,7 +481,8 @@ only one of the lines gets executed
 - In .js.erb files, Rails auto provides the jQuery helpers to manipulate the page using the DOM. 
 - The `escape_javascript` method is needed to escape out the result when inserting HTML in a JS file
 
-##### 14.2.6 
+##### 14.2.6 Following tests
+- For testing Ajax, use the `xhr: true` option (XmlHttpRequest)
 
 #### 14.3
 
