@@ -487,7 +487,11 @@ only one of the lines gets executed
 #### 14.3 The status feed
 ##### 14.3.1 Motivation and strategy
 
-##### 14.3.
+##### 14.3.2 A first feed implementation
+- Active record synthesizes methods based on `has_many` associations, allowing us to simply add `_ids` to an association name to get ids corresponding fo a collection
+eg: for a model with `has_many :following`, we can use the method `following_ids` on an instance of `User` like `User.first`.
+
+
 ##### 14.3.
 
 
