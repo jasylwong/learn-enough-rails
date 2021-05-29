@@ -491,8 +491,10 @@ only one of the lines gets executed
 - Active record synthesizes methods based on `has_many` associations, allowing us to simply add `_ids` to an association name to get ids corresponding fo a collection
 eg: for a model with `has_many :following`, we can use the method `following_ids` on an instance of `User` like `User.first`.
 
-
-##### 14.3.
-
+##### 14.3.3 Subselects
+- The previous implementation does not scale well when the no. of microposts in the feed is large
+- A better way is pushing the finding of followed user ids into the db using a subselect
+- We can replace the `?` in the previous way with a symbol, which is more convenient when we want to use the same variable inserted in more than one place
+- (For even bigger sets and better scaling, you could generate the feed asynchronously using a background job)
 
 #### 14.4
