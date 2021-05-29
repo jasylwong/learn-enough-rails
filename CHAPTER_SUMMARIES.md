@@ -497,4 +497,5 @@ eg: for a model with `has_many :following`, we can use the method `following_ids
 - We can replace the `?` in the previous way with a symbol, which is more convenient when we want to use the same variable inserted in more than one place
 - (For even bigger sets and better scaling, you could generate the feed asynchronously using a background job)
 
-#### 14.4
+#### 14.4 Conclusion
+See PDF for further resources
