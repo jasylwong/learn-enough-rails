@@ -484,6 +484,11 @@ only one of the lines gets executed
 ##### 14.2.6 Following tests
 - For testing Ajax, use the `xhr: true` option (XmlHttpRequest)
 
-#### 14.3
+#### 14.3 The status feed
+##### 14.3.1 Motivation and strategy
+
+##### 14.3.
+##### 14.3.
+
 
 #### 14.4
